@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RelayChat.Services.API", "RelayChat.Services.API\RelayChat.Services.API.csproj", "{5B006779-8A50-4E1A-8FF8-FBB995E6D4ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F786136F-4FD0-4987-BB21-9317D22C0FA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A77E7203-56B9-43DC-9CB2-E30905EAEEE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{860BAE4A-6A0D-42B4-BEAE-E977FA250B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{ADB61D86-FD7E-43BA-BE54-DA4B5C133DFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{8D57361D-4B67-47AE-BC65-DDF7D2048017}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_SolutionItems", "_SolutionItems", "{CECF865A-6567-4AF8-B989-D7BF5AB12775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayChat.Services.Application", "RelayChat.Services.Application\RelayChat.Services.Application.csproj", "{E66E1364-5D6B-4FF6-8D8F-3D5F133EF4D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayChat.Services.Domain", "RelayChat.Services.Domain\RelayChat.Services.Domain.csproj", "{18FD796C-EB57-49FE-9DD7-5003ADF56D59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayChat.Services.Infrastructure", "RelayChat.Services.Infrastructure\RelayChat.Services.Infrastructure.csproj", "{C7E7B42C-D9C2-4085-95F7-5DBB9490B1EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayChat.Services.Persistence", "RelayChat.Services.Persistence\RelayChat.Services.Persistence.csproj", "{8C0024FA-5B85-4310-912D-E63F12FCA24E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{3C2BEA79-E014-4BA2-BB30-99D193CAB97B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayChat.Services.Shared", "RelayChat.Services.Shared\RelayChat.Services.Shared.csproj", "{A99DE497-BD03-4099-B6D5-E700D9F5AAC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B006779-8A50-4E1A-8FF8-FBB995E6D4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B006779-8A50-4E1A-8FF8-FBB995E6D4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B006779-8A50-4E1A-8FF8-FBB995E6D4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B006779-8A50-4E1A-8FF8-FBB995E6D4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E66E1364-5D6B-4FF6-8D8F-3D5F133EF4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E66E1364-5D6B-4FF6-8D8F-3D5F133EF4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E66E1364-5D6B-4FF6-8D8F-3D5F133EF4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E66E1364-5D6B-4FF6-8D8F-3D5F133EF4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FD796C-EB57-49FE-9DD7-5003ADF56D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FD796C-EB57-49FE-9DD7-5003ADF56D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FD796C-EB57-49FE-9DD7-5003ADF56D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FD796C-EB57-49FE-9DD7-5003ADF56D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E7B42C-D9C2-4085-95F7-5DBB9490B1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E7B42C-D9C2-4085-95F7-5DBB9490B1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E7B42C-D9C2-4085-95F7-5DBB9490B1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E7B42C-D9C2-4085-95F7-5DBB9490B1EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0024FA-5B85-4310-912D-E63F12FCA24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0024FA-5B85-4310-912D-E63F12FCA24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0024FA-5B85-4310-912D-E63F12FCA24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0024FA-5B85-4310-912D-E63F12FCA24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99DE497-BD03-4099-B6D5-E700D9F5AAC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99DE497-BD03-4099-B6D5-E700D9F5AAC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99DE497-BD03-4099-B6D5-E700D9F5AAC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99DE497-BD03-4099-B6D5-E700D9F5AAC0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B006779-8A50-4E1A-8FF8-FBB995E6D4ED} = {A77E7203-56B9-43DC-9CB2-E30905EAEEE9}
+		{A77E7203-56B9-43DC-9CB2-E30905EAEEE9} = {F786136F-4FD0-4987-BB21-9317D22C0FA3}
+		{860BAE4A-6A0D-42B4-BEAE-E977FA250B6F} = {F786136F-4FD0-4987-BB21-9317D22C0FA3}
+		{ADB61D86-FD7E-43BA-BE54-DA4B5C133DFF} = {F786136F-4FD0-4987-BB21-9317D22C0FA3}
+		{E66E1364-5D6B-4FF6-8D8F-3D5F133EF4D5} = {860BAE4A-6A0D-42B4-BEAE-E977FA250B6F}
+		{18FD796C-EB57-49FE-9DD7-5003ADF56D59} = {860BAE4A-6A0D-42B4-BEAE-E977FA250B6F}
+		{C7E7B42C-D9C2-4085-95F7-5DBB9490B1EC} = {ADB61D86-FD7E-43BA-BE54-DA4B5C133DFF}
+		{8C0024FA-5B85-4310-912D-E63F12FCA24E} = {ADB61D86-FD7E-43BA-BE54-DA4B5C133DFF}
+		{3C2BEA79-E014-4BA2-BB30-99D193CAB97B} = {F786136F-4FD0-4987-BB21-9317D22C0FA3}
+		{A99DE497-BD03-4099-B6D5-E700D9F5AAC0} = {3C2BEA79-E014-4BA2-BB30-99D193CAB97B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E8E0BA5-47B3-4C5E-BBE3-4A4482F1FF7B}
+	EndGlobalSection
+EndGlobal

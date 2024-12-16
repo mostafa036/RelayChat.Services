@@ -1,0 +1,6 @@
+@RelayChat.Services.API_HostAddress = http://localhost:5035
+
+GET {{RelayChat.Services.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

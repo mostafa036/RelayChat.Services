@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RelayChat.Services.Application\RelayChat.Services.Application.csproj" />
+    <ProjectReference Include="..\RelayChat.Services.Domain\RelayChat.Services.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

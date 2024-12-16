@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="MapperProfiles\" />
+    <Folder Include="RealTime\Handlers\" />
+    <Folder Include="RealTime\Models\" />
+    <Folder Include="RealTime\Services\" />
+    <Folder Include="Resolvers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RelayChat.Services.Domain\RelayChat.Services.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
